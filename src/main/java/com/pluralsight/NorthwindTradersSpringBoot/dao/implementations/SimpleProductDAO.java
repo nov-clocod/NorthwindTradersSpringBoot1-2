@@ -15,8 +15,8 @@ public class SimpleProductDAO implements IProductDAO {
         this.products = new ArrayList<>();
 
         products.add(new Product(1, "Crab", 1, 34.99));
-        products.add(new Product(1, "Egg", 2, 8.99));
-        products.add(new Product(1, "Chicken", 3, 55.68));
+        products.add(new Product(2, "Egg", 2, 8.99));
+        products.add(new Product(3, "Chicken", 3, 55.68));
     }
 
     @Override
